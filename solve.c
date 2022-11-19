@@ -98,6 +98,9 @@ int main() {
 	int min_d = calculate_min(n, type, dist);
 	int max_d = calculate_max(n, type, dist);
 
+	// deallocate memory
+	free(type); free(dist);
+	
 	// PRINT
 	if(max_d == -1) {
 		printf("0 0\n");
