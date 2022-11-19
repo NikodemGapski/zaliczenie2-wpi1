@@ -13,4 +13,4 @@ gen:
 		gcc gen.c -o gen.e
 		
 clean:
-		rm -f *.e
+		rm -f *.e *.in *.out
